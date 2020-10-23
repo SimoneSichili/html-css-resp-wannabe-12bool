@@ -116,7 +116,7 @@
   }
 
   [class*='col-'] {
-    padding: 20px;
+    padding: 10px;
   }
 
   section:not(:first-child) {
@@ -132,18 +132,18 @@
   }
 
   h1 {
-    margin-bottom: 10px;
+    margin-bottom: 0;
     font-size: 30px;
   }
 
   h3 {
-    margin: 15px 0;
+    margin: 10px 0;
   }
 
 
   img {
     display: block;
-    height: 150px;
+    height: 120px;
     margin: 0 auto;
   }
 
@@ -154,7 +154,11 @@
   }
 
   #why hr {
-    display: none;
+    display: block;
+    margin: 10px 0;
   }
+
+  #why [class*='col-']:last-child hr {
+    display: none;
 
 }
