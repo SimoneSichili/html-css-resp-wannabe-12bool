@@ -1,47 +1,160 @@
-@media screen and (min-width: 992px) {
-
-body {
-  padding: 50px 0;
-}
-
 [class*='col-'] {
   text-align: center;
-  padding: 15px;
 }
 
-section:not(:first-child) {
-  margin-top: 50px;
+.bg-yellow {
+  background-color: #F2F2CD;
 }
 
-h1 {
-  margin-bottom: 30px;
-  font-size: 35px;
+@media screen and (min-width: 992px) {
+
+  body {
+    padding: 50px 0;
+  }
+
+  [class*='col-'] {
+    padding: 25px;
+  }
+
+  section:not(:first-child) {
+    margin-top: 50px;
+  }
+
+  .bg-grey {
+    background-color: #f9f9f9;
+  }
+
+  .bg-yellow {
+    background-color: transparent;
+  }
+
+  h1 {
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+
+  h3 {
+    margin: 20px 0;
+  }
+
+  img {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  #why img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px
+  }
+
+  #why hr {
+    margin: 20px 0;
+  }
+
+  #why [class*='col-']:last-child hr {
+    display: none;
+  }
+
 }
 
-h3 {
-  margin: 20px 0;
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  body {
+    padding: 20px 0;
+  }
+
+  [class*='col-'] {
+    padding: 20px;
+  }
+
+  section:not(:first-child) {
+    margin-top: 20px;
+  }
+
+  .bg-grey {
+    background-color: #f9f9f9;
+  }
+
+  .bg-yellow {
+    background-color: transparent;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  h3 {
+    margin: 15px 0;
+  }
+
+
+  img {
+    display: block;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  #why img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px
+  }
+
+  #why hr {
+    display: none;
+  }
+
 }
 
+@media screen and (max-width: 767px) {
 
-img {
-  display: block;
-  height: 200px;
-  margin: 0 auto;
-}
+  body {
+    padding: 0 0;
+  }
 
-.bg-grey {
-  background-color: #f9f9f9;
-}
+  [class*='col-'] {
+    padding: 20px;
+  }
 
-#why img {
-  background-color: #428bca;
-  border-radius: 50%;
-  padding: 30px
-}
+  section:not(:first-child) {
+    margin-top: 20px;
+  }
 
-#why hr {
-  margin: 20px 0;
-}
+  .bg-grey {
+    background-color: transparent;
+  }
 
+  .bg-yellow {
+    background-color: #F2F2CD;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  h3 {
+    margin: 15px 0;
+  }
+
+
+  img {
+    display: block;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  #why img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px
+  }
+
+  #why hr {
+    display: none;
+  }
 
 }
