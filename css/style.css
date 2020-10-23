@@ -1,0 +1,47 @@
+@media screen and (min-width: 992px) {
+
+body {
+  padding: 50px 0;
+}
+
+[class*='col-'] {
+  text-align: center;
+  padding: 15px;
+}
+
+section:not(:first-child) {
+  margin-top: 50px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+
+img {
+  display: block;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.bg-grey {
+  background-color: #f9f9f9;
+}
+
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+#why hr {
+  margin: 20px 0;
+}
+
+
+}
